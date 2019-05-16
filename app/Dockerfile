@@ -26,3 +26,4 @@ RUN	apt-get clean \
 COPY php.ini /etc/php/7.2/fpm/
 COPY www.conf /etc/php/7.2/fpm/pool.d/www.conf
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY php-fpm.conf /etc/php/7.2/fpm/php-fpm.conf
